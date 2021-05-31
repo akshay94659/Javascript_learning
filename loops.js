@@ -1,11 +1,12 @@
 // loops in js
 
+//for loop
 for(let i =0; i<10;i++)
 {
-    //console.log(` the count is ${i}`);
+    console.log(` the count is ${i}`);
 }
-// iterating in array
 
+// iterating in array
 var mystates =["Shimla","Punjab","Delhi","UK" ];
 for(let j=0; j<mystates.length;j++)
 {
@@ -17,6 +18,7 @@ for(let j=0; j<mystates.length;j++)
 }
 
 console.log("-------------------------------");
+
 // while loop
 var i =0;
 
@@ -33,5 +35,4 @@ do{
     console.log(mystates[i]);
     i++;
 }
-while(i<mystates.length)
-;
+while(i<mystates.length);
