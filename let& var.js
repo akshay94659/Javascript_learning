@@ -6,7 +6,7 @@ console.log(name);
 
 // let / var  lastname ="Sharma";
 
-// Using the let will through the error not the undefined which is more useful while writing senstive code and specially then backend changes
+// Using the let will through the error not the undefined which is more useful while writing senstive code and specially in backend changes
 // While var is used for lineate purpose in the Ui design
 
 // also in js {} are not considered scopes only functions are supposed as scope
