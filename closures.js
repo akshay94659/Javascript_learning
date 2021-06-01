@@ -6,8 +6,7 @@ function sayHi()
 {
     this.firstname ="Akshay";
     this.lastname ="Sharma";
-    console.log((this.firstname));
-    console.log(a);
+    console.log((this.firstname))
     function sayHello()
     {
         console.log(this.lastname);
