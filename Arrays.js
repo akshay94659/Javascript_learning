@@ -1,7 +1,5 @@
 // Array in javascript 
 
-
-
 var countries =["India","China","Germany","Delhi"];
 
 console.log(countries[0]);
@@ -25,7 +23,7 @@ users.push("NEW VALUE");
 
 console.log(users);
 
-// SHift and  Unshift. Unshift is used to push the values at the start and Shift is used to delete at  the start
+// Shift and  Unshift. Unshift is used to push the values at the start and Shift is used to delete at  the start
 users.unshift(true);
 
 console.log(users);
@@ -35,15 +33,15 @@ console.log(users);
 
 // indexOf function gives the index of element in array
 
-// callback and arroy function
+// callback and array function
 
-var eveni =  (element) =>
+var evenodd =  (element) =>
 {
     return element % 2 === 0
 }
 
-console.log( eveni(3));
+console.log( evenodd(3));
 
- var results = [2,4,2,6,8].every((e) => (e %2 === 0));
+ var results = [2,4,2,6,7].every((e) => (e %2 === 0));
 
  console.log(results);
