@@ -1,3 +1,4 @@
+
 var mystates =[
     "Shimla",
     "Punjab",
@@ -9,4 +10,4 @@ var mystates =[
 
  mystates.forEach((e)=>(console.log(e)))
 
-console.log(mystates.forEach());
+// In for each loop we use Arrow function to simplify the Code structure
