@@ -1,6 +1,6 @@
-var name = "Akshay";
+var name1 = "Akshay";
 
-var fullName =`${name} Sharma`;
+var fullName =`${name1} Sharma`;
 
 console.log(fullName);
 
